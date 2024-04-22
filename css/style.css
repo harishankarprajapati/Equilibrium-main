@@ -346,9 +346,9 @@ a.btn-style{
     margin: 0px;
     padding: 0px;
 }
-.book-your-session input[type="date"]{
+/* .book-your-session input[type="date"]{
     width: 100%;
-}
+} */
 .trending-product-img{
     text-align: center;
 }
