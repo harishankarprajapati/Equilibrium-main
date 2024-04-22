@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Equilibrium</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <!-- header -->
+      <div include-html="header.html" id="header-file"></div>
+
+    <div class="banner-container">
+        <div class="banner-section-wrapper climbfit-banner">
+            <div class="container">   
+                <div class="row">
+                    <div class="banner-image">
+                        <h1><b>Climbfit</b></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="climbfit-section-wrapper">
+        <div class="container">   
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <div class="climbfit-circle">
+                        <img src="images/climbfit-circle.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="program-structure-text">
+                        <h3>Program Structure :</h3>
+                        <p>The CLIMBFIT training program is a module based training methodology, where in one learns to climb and develops the strength for climbing as they learn to climb. The training is divided between Strength & Conditioning, Climbing and Agility. The Training is individualized.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="climbfit-text-section-wrapper">
+        <div class="container">
+            <div class="col-md-8">
+                <div class="climbfit-text">
+                    <p>The CLIMBFIT module also provides one with unlimited access to the entire facility for the duration of the module part from the training class hour's.</p>
+                    <p>Duration of Each Module – 3 months</p>
+                    <p>Class structure – 3 classes's a week every alternate day, Each class is 1.5 hours long.</p>
+                    <p>Class timings: -<br>
+                        MON- FRI 6:30am, 8:00am. 4:30pm, 6:00pm and 8:00pm<br>
+                        Saturday 9:30am and 4:30pm<br></p>
+                    <p>A fitness regimen designed using the principles of climbing.</p>
+                    <p>In this program, one realises that the sole desire to ‘become super fit’ or ‘Lose weight’ are burdens that cannot be sustained over time. The realisation that we wish for you to have is of the joy of climbing; how much fun climbing could be and as one immerses himself in the beauty of the sport, the ‘Fitness’ and the ‘Weight loss’ goals take care of themselves. The ClimbFit program’s sole aim is to get you to discover and love climbing, to progress in climbing and in the process, as a consequence, fitness and weightless goals are achieved without even realising it. In the end, how much can one slave in gyms lifting weights or doing drills in endless loops. We believe, sport must be fun - it must excite you, get your heart racing.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    
+     <!-- footer -->
+     <div include-html="footer.html" id="footer-file"></div>
+     
+    <footer> 
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+            integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+            crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="js/include-html.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.owl-one').owlCarousel({
+                    items:3,
+                    loop:true,
+                    margin:10,
+                    nav:true,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                    autoplayHoverPause:true
+                });
+                $('.owl-two').owlCarousel({
+                    items:3,
+                    loop:true,
+                    margin:10,
+                    nav:true,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                    autoplayHoverPause:true
+                });
+                $('.play').on('click',function(){
+                    owl.trigger('play.owl.autoplay',[1000])
+                })
+                $('.stop').on('click',function(){
+                    owl.trigger('stop.owl.autoplay')
+                })
+            
+              });
+        </script>
+    </footer>
+</body>
+
+</html>

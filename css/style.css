@@ -1,0 +1,909 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    color: #333333;
+}
+.navbar-nav.me-auto{
+    margin-left: auto!important;
+    margin-right: 0px !important;
+}
+.space-left-right{
+    padding: 0px 50px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    font-size: 20px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 15px;
+    color: #6B7280;
+}
+.spaceleft-right{
+    padding: 0px 60px;
+}
+.header-buttons li{
+    list-style: none;
+}
+.btn-style{
+    border-radius: 50px;
+}
+a.btn-style{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+.btn-style.border-button{
+    border: 1px solid #F15589;
+    color: #F15589;
+    background: #ffffff;
+}
+.btn-style{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f1565d+0,ea5286+100 */
+    background: linear-gradient(to bottom,  #f1565d 0%,#ea5286 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: #ffffff;
+}
+.header-buttons{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.no-border{
+    border: 0px !important;
+}
+.header-buttons .border{
+    margin: 0px 20px;
+}
+.head-top{
+    background-color: #F1565B;
+}
+.head-top p{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 12px 20px;
+}
+.head-top span{
+    font-weight: 700;
+    margin-left: 20px;
+}
+.banner-section-wrapper{
+    background-image: url("../images/banner-image.jpg");
+    background-size: cover;
+    padding: 150px 0px;
+}
+.banner-section-wrapper.about-banner{
+    background-image: url("../images/aboutbg.jpg");
+}
+.banner-section-wrapper.first-visit-banner{
+    background-image: url("../images/first-visit-bnn.jpg");
+}
+.white-header-wrapper{
+    background-color: #ffffff;
+}
+.navbar.navbar-expand-md.navbar-dark{
+    padding: 0px;
+}
+.banner-image h1{
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 300;
+}
+.banner-image h1 b{
+    display: block;
+    font-weight: 700;
+}
+.navbar-brand{
+    margin-bottom: -40px;
+}
+.banner-image p{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 40px 0px 60px;
+}
+.arrow-button .btn-style{
+    background: #3B82F6;
+    padding: 20px 40px;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.arrow-button span{
+    background: #3B82F6;
+    padding: 20px 30px;
+    border-radius: 100px;
+    margin-left: -10px;
+}
+.thumbnail-style{
+    text-align: center;
+    height: 500px;
+    padding: 95px 0px;
+}
+.bangalore-thumb{
+    background-image: url("../images/banglore.jpg");
+    padding: 95px 0px;
+}
+.thumbnail-style h6{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 20px 0px 40px;
+}
+.three-thumbnail-section{
+    padding: 150px 0px;
+}
+.goa-anjuna{
+    background-image: url("../images/goa.jpg");
+}
+.first-time{
+    background-image: url("../images/first-time.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.thumbnail-style p {
+    font-size: 25px;
+    color: #ffffff;
+    padding: 0px 20px 40px;
+    margin-bottom: 0px;
+}
+.first-time h6{
+    padding: 0px 20px 10px;
+}
+.book-your-session-section{
+    background-image: url("../images/zigzag.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.book-your-session{
+    background-color: #3B82F6;
+    border-radius: 20px;
+    padding: 60px;
+}
+.book-your-session h3{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.form-group input[type="email"]{
+    background: transparent;
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-size: 20px;
+    border-bottom: 1px solid #ffffff;
+    padding: 18px 0px;
+}
+.form-group input[type="email"]::placeholder{
+    color: #ffffff;
+}
+.choose-location h6{
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.choose-location{
+    margin: 30px 0px;
+}
+.book-your-session label{
+    color: #ffffff;
+    font-size: 18px;
+}
+.book-your-session button{
+    font-size: 18px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-weight: 700;
+    border: 0px;
+    padding: 20px 50px;
+}
+.book-your-session .col-auto.text-center{
+    margin-top: 60px;
+}
+.form-text{
+    margin-top: 50px;
+}
+.form-text h6{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 1em;
+}
+.form-text a{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1em;
+}
+.form-text p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.trending-product-section{
+    padding: 40px 0px 100px;
+}
+.section-title{
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.trending-product h6{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.trending-product-section .arrow-button.text-center{
+    margin-top: 60px;
+}   
+.trending-product-img{
+    margin-bottom: 30px;
+}
+.news-box h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.our-latest-news-section .arrow-button.text-center{
+    margin-top: 60px;
+}
+.small-logo{
+    margin: 100px 0px 40px;
+}
+.footer-section{
+    background-color: #1E3A8A;
+    padding: 100px 0px 80px;
+    margin-top: 120px;
+}
+.footer-section2{
+    background-color: #1E3A8A;
+    padding: 100px 0px 80px;
+    margin-top: 0px;
+}
+.copyright{
+    background-color: #F1565B;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+.footer-list li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    display: block;
+}
+.footer-list li{
+    list-style: none;
+}
+.eapps-widget.eapps-widget-show-toolbar a{
+    display: none !important;
+}
+.arrowup a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.arrowup span{
+    margin-left: 10px;
+}
+.arrowup{
+    margin-top: 30px;
+}
+.news-box p{
+    color: #ACACAC;
+    font-size: 18px;
+}
+.footer-form{
+    display: flex;
+    margin-bottom: 80px;
+}
+.field-wrapper{
+    width: 265px;
+}
+.field-wrapper input[type="email"]{
+    border-radius: 50px !important;
+    border: 0px !important;
+    height: 50px;
+    padding: 10px 20px;
+    margin: 0;
+}
+.footer-form .btn.btn-primary{
+    border-radius: 50px;
+    border: 0px;
+    background-color: #3B82F6;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 35px;
+    margin-left: 20px;
+}
+.footer-list{
+    margin: 0px;
+    padding: 0px;
+}
+.book-your-session input[type="date"]{
+    width: 100%;
+}
+.trending-product-img{
+    text-align: center;
+}
+.trending-product h6{
+    text-align: center;
+}
+.banner-section-wrapper.climbfit-banner{
+    background-image: url("../images/climbfit.jpg");
+    background-position: right top;
+}
+.climbfit-text-section-wrapper{
+    padding: 150px 0px;
+    background-image: url("../images/zig2.png");
+    background-size: cover;
+    margin-bottom: 60px;
+    margin-top: -200px;
+}
+.climbfit-text h3{
+    color: #6B7280;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.climbfit-text p{
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 18px;
+}
+.climbfit-section-wrapper{
+    padding: 100px 0px 265px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,fbd4e1+100&0+0,1+100 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(251,212,225,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.social-icons ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+.program-structure-text p{
+    color: #6B7280;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.program-structure-text h3{
+    color: #6B7280;
+    font-weight: 700;
+}
+.climbfit-text-section-wrapper.rock-zig{
+    background-image: url("../images/rock-zig.png");
+}
+.banner-section-wrapper.courses-banner{
+    background-image: url("../images/coursesbg.jpg");
+}
+.climbfit-section-wrapper.eqlogo{
+
+}
+.climbfit-text-section-wrapper.rock-zig.eqlogo{
+    margin-top: 0;
+}
+.climbfit-section-wrapper.eqlogo{
+    padding: 100px 0px 20px;
+}
+.best-way-marquee{
+    margin-top: 20px;
+}
+.best-way-marquee marquee{
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.best-way-marquee marquee i{
+    margin: 0px 10px;
+}
+.title-wrapper{
+    padding-top: 100px;
+}
+.climbfit-text b{
+    font-size: 25px;
+}
+.climbfit-text ul li{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.climbfit-text-section-wrapper.courses-zig{
+    background-image: url(../images/sports-climbing.png);
+    margin-top: 0px;
+}
+.level2-text p{
+    color: #000000;
+    font-size: 18px;
+    line-height: 32px;
+}
+.level2-text ul li{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.level2-section-wrapper{
+    padding-bottom: 100px;
+}
+.climbfit-section-wrapper.padding-top-100{
+    padding: 100px 0px 0px;
+}
+.padding-top-bottom-100{
+    padding: 100px 0px !important;
+}
+.client-say-section{
+    padding: 100px 0px;
+}
+.climbfit-text-section-wrapper.core-values-zig.eqlogo{
+    background-image: url("../images/core-values.png");
+    background-position: right top;
+    margin-top: 0px;
+}
+.about-climbing-section .title-wrapper{
+    padding-top: 0px;
+}
+.margin-top-100{
+    margin-top: 100px;
+}
+.level2-section-wrapper.about-climbing-section .arrow-button.text-left{
+    margin-top: 40px;
+}
+.small-title{
+    font-size: 35px;
+    font-weight: 400 !important;
+    color: #000000 !important;
+    text-transform: capitalize;
+}
+.level2-section-wrapper.about-climbing-section{
+    padding-bottom: 40px;
+}
+.video-section-wrapper{
+    text-align: center;
+}
+.video-section-wrapper iframe{
+    width: 1140px;
+    height: 538px;
+    margin: auto;
+}
+.climbfit-section-wrapper.were-glad-section{
+    background: transparent;
+}
+.climbfit-section-wrapper.were-glad-section h3{
+    font-size: 48px;
+}
+.level2-section-wrapper.Lets-help-you-section{
+    padding-bottom: 0px;
+}
+.secemail{
+    border: 1px solid #ACACAC !important;
+    padding: 3px 15px !important;
+    color: #ACACAC !important;
+
+}
+
+::placeholder{
+    color: #484849 !important;
+    font-size: 16px;
+}
+input , textarea {
+    margin-bottom: 20px;
+    border-radius: 0px !important;
+    border: 1px solid #ACACAC !important;
+}
+.locatineseccont h3{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.locatineseccont p{
+    font-size: 18px;
+}
+.locatineseccont p a{
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+.locatineseccont{
+    padding-top: 80px !important;
+}
+.secprep{
+  text-align: center;
+}
+.secprep h3{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+.secprep p{
+    font-size: 18px;
+    color: #6B7280;
+}
+.climbfit-text-section-wrapper3{
+    padding: 280px 0px;
+    background-image: url("../images/zigzag.png");
+    background-size: cover;
+    margin-bottom: 60px;
+    
+}
+ .waiverform-banner2{
+    background-image: url(../images/waiverform-banner.png) !important;
+    background-size: cover;
+    padding: 150px 0px;
+}
+.banner-image22 h1 b {
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.backbusec{
+     float: left !important;
+}
+.seadtext{
+    font-size: 23px;
+    text-align: center;
+}
+.seadtextp{
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+.secbtnform{
+    padding-top: 40px;
+    text-align: center;
+}
+.secbtnform a{
+    padding: 15px 30px;
+    background: #1a1a1a;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.video-section-wrapper{
+
+}
+@media only screen and (max-width:1920px){
+
+}
+@media only screen and (max-width:1680px){
+
+}
+@media only screen and (max-width:1440px){
+
+}
+@media only screen and (max-width:1366px){
+
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 18px;
+    }
+    a.btn-style{
+        font-size: 16px;
+    }
+    .head-top p{
+        font-size: 18px;
+    }
+    .footer-form .btn.btn-primary{
+        font-size: 14px;
+    }
+    .footer-list li a{
+        font-size: 16px;
+    }
+    .copyright{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:1199px){
+
+    .climbfit-text-section-wrapper{
+        background-color: #1a1a1a;
+        margin-top: 0px;
+        padding: 100px 0px;
+        background-image: none !important;
+    }
+    .climbfit-section-wrapper{
+        padding: 100px 0px 100px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+        line-height: 18px;
+    }
+    a.btn-style{
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px 10px;
+    }
+    .header-buttons .border{
+        margin: 0px 10px;
+    }
+    .banner-image h1{
+        font-size: 65px;
+    }
+    .banner-image p{
+        font-size: 22px;
+    }
+    .head-top p{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:991px){
+
+    .banner-section-wrapper{
+        padding: 100px 0px;
+    }
+    .three-thumbnail-section{
+        padding: 100px 0px;
+    }
+    .thumbnail-style p{
+        font-size: 20px;
+    }
+    .thumbnail-style h6{
+        font-size: 25px;
+    }
+    .arrow-button .btn-style{
+        padding: 15px 30px;
+    }
+    .arrow-button span{
+        padding: 15px 20px;
+    }
+    .book-your-session{
+        padding: 50px 30px;
+    }
+    .book-your-session h3{
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    .form-text a{
+        font-size: 30px;
+    }
+    .form-text h6{
+        font-size: 25px;
+    }
+    .form-text p{
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .trending-product h6{
+        font-size: 16px;
+    }
+    .trending-product-section {
+        padding: 60px 0px 0px;
+    }
+    .section-title{
+        font-size: 50px;
+    }
+    .our-latest-news-section{
+        padding-top: 60px;
+    }
+    .news-box h4{
+        font-size: 16px;
+    }
+    .news-box p{
+        font-size:14px;
+    }
+    .arrowup a {
+        font-size: 14px;
+    }
+    .footer-list li a {
+        font-size: 14px;
+    }
+    .copyright {
+        font-size: 14px;
+    }
+    .header-buttons-wrapper{
+        display: none;
+    }
+    .navbar-brand{
+        width: 200px;
+    }
+    .level2-section-wrapper{
+        padding-bottom: 0px;
+    }
+}
+@media only screen and (max-width:767px){
+    .navbar-expand-md .navbar-nav .nav-link{
+        text-align: left;
+    }
+
+    .climbfit-section-wrapper.padding-top-100 {
+        padding: 60px 0px 0px;
+    }
+    .copyright{
+        padding: 10px;
+    }
+    .title-wrapper {
+        padding-top: 60px;
+    }
+    .climbfit-text p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .climbfit-text ul li{
+        font-size: 16px;
+    }
+    .level2-text p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .level2-text li{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .best-way-marquee marquee{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .level2-section-wrapper{
+        padding-top: 80px;
+    }
+    .level2-section-wrapper .level2-text{
+        margin-top: 40px;
+    }
+    .social-icons ul{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .program-structure-text{
+        margin-top: 60px;
+    }
+    .climbfit-text-section-wrapper{
+        background-color: #000000;
+        padding: 60px 0px;
+        background-image: none;
+        margin-bottom: 0px;
+    }
+    .navbar-toggler{
+        background-color: #F1565B;
+    }
+    .banner-image h1 , .banner-image22 h1 b {
+        font-size: 45px;
+    }
+    .banner-image p {
+        font-size: 18px;
+    }
+    .arrow-button .btn-style{
+        font-size: 18px;
+    }
+    .thumbnail-style{
+        margin-bottom: 40px;
+    }
+    .three-thumbnail-section {
+        padding: 100px 0px 50px;
+    }
+    .section-title {
+        font-size: 45px;
+    }
+    .trending-product{
+        margin-bottom: 40px;
+    }
+    .trending-product-section .arrow-button.text-center {
+        margin-top: 30px;
+    }
+    .footer-form{
+        margin-bottom: 40px;
+    }
+    .footer-section{
+        padding: 80px 0px 60px;
+    }
+    .footer-section{
+        margin-top: 80px;
+    }
+    .small-logo {
+        margin: 60px 0px 40px;
+    }
+    .climbfit-section-wrapper {
+        padding: 80px 0px;
+        text-align: center;
+    }
+    .margin-top-100 {
+        margin-top: 60px;
+    }
+    .column-reverse-mobile{
+        flex-direction: column-reverse;
+    }
+    .level2-section-wrapper.about-climbing-section {
+        padding-bottom: 0px;
+    }
+    .small-title {
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width:565px){
+
+    .margin-top-100 {
+        margin-top: 40px;
+    }
+    .section-title{
+        margin-bottom: 40px;
+    }
+    .navbar-brand{
+        width: 170px;
+    }
+    .banner-image h1 {
+        font-size: 35px;
+    }
+    .banner-image p {
+        font-size: 16px;
+    }
+    .banner-image p br{
+        display: none;
+    }
+    .arrow-button .btn-style {
+        font-size: 16px;
+    }
+    .banner-section-wrapper{
+        padding: 100px 0px 80px;
+    }
+    .three-thumbnail-section {
+        padding: 70px 0px 50px;
+    }
+    .thumbnail-style h6 {
+        font-size: 23px;
+    }
+    .book-your-session h3 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    .book-your-session input[type="date"]{
+        margin-bottom: 30px;
+    }
+    .book-your-session button{
+        padding: 15px 40px;
+        font-size: 16px;
+    }
+    .form-text {
+        margin-top: 30px;
+    }
+    .form-text h6 {
+        font-size: 22px;
+    }
+    .form-text a {
+        font-size: 25px;
+    }
+    .form-text p{
+        font-size: 16px;
+    }
+    .book-your-session {
+        padding: 40px 30px;
+    }
+    .space-left-right{
+        padding: 0px 20px;
+    }
+    .section-title {
+        font-size: 34px;
+    }
+    .our-latest-news-section{
+        padding-top: 60px;
+    }
+    .footer-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-form .btn.btn-primary{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .footer-logo{
+        text-align: center;
+    }
+}
