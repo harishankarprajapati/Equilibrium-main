@@ -584,7 +584,6 @@ input , textarea {
     border: 1px solid #E8E8E8;
     background: #F8F8F8;
     padding-bottom: 40px;
-    height: 750px;
     margin-bottom: 30px;
 }
 .sectittlebox{
@@ -603,7 +602,7 @@ input , textarea {
     color: #000000;
 }
 .sectittlebox h5{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: #F1565B;
 }
